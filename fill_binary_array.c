@@ -33,5 +33,6 @@ char *fill_binary_array(char *binary, long int int_in, int isneg, int limit)
 			else
 				binary[i] = '0';
 	}
+
 	return (binary);
 }
